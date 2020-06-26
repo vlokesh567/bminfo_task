@@ -1,0 +1,55 @@
+/*font-family: 'MuseoModerno', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Nunito', sans-serif;
+	font-size: 62.5%;
+}
+
+.navbar-nav .nav-link{
+	font-size: 1rem;
+}
+
+
+
+.showcase{
+	background: linear-gradient(to bottom,rgba(0,0,0, .7),rgba(0,0,0, .7)),url(../img/bg.jpg);
+	height: 91.5vh;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.showcase_content_header{
+	font-family: 'MuseoModerno', cursive;
+	font-weight: 200;
+	font-size:2rem ;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 3rem;
+
+}
+
+
+/*login page css*/
+
+
+.card-header{
+	font-size: 1.5rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'MuseoModerno', cursive;
+
+}
+.card-body label{
+	font-size: 1rem;
+}
